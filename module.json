@@ -39,9 +39,9 @@
   "url": "https://github.com/jero-rodriguez/beast-and-barbarians-content",
   "packs": [
     {
-      "name": "Actors",
-      "label": "actors",
-      "path": "packs/bnb-actors.db",
+      "name": "bnb-bestiary",
+      "label": "bnb-bestiary",
+      "path": "packs/bnb-bestiary",
       "package": "beast-and-barbarians-content",
       "type": "Actor",
       "ownership": {
@@ -49,13 +49,117 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "visible": true,
       "flags": {}
     },
-    {
-      "name": "bnb-items",
-      "label": "bnb-items",
-      "path": "packs/bnb-items",
+	{
+      "name": "bnb-ancestries",
+      "label": "bnb-ancestries",
+      "path": "packs/bnb-ancestries",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-armor",
+      "label": "bnb-armor",
+      "path": "packs/bnb-armor",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-edges",
+      "label": "bnb-edges",
+      "path": "packs/bnb-edges",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-equipment",
+      "label": "bnb-equipment",
+      "path": "packs/bnb-equipment",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-hindrances",
+      "label": "bnb-hindrances",
+      "path": "packs/bnb-hindrances",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-powers",
+      "label": "bnb-powers",
+      "path": "packs/bnb-powers",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-skills",
+      "label": "bnb-skills",
+      "path": "packs/bnb-skills",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-special-abilities",
+      "label": "bnb-special-abilities",
+      "path": "packs/bnb-special-abilities",
+	  "package": "beast-and-barbarians-content",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+	{
+      "name": "bnb-weapons",
+      "label": "bnb-weapons",
+      "path": "packs/bnb-weapons",
+	  "package": "beast-and-barbarians-content",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -65,6 +169,23 @@
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/jero-rodriguez/beast-and-barbarians-content/releases/latest/download/module.json",
-  "download": "https://github.com/jero-rodriguez/beast-and-barbarians-content/releases/download/0.0.1/module.zip"
+  "packFolders": [
+    {
+      "name": "Beast and Barbarians Content",
+      "sorting": "m",
+      "color": "#7C6840",
+      "packs": [
+        "bnb-bestiary",
+        "bnb-ancestries",
+        "bnb-armor",
+        "bnb-edges",
+        "bnb-equipment",
+        "bnb-hindrances",
+        "bnb-powers",
+        "bnb-skills",
+        "bnb-special-abilities",
+        "bnb-weapons"
+      ]
+    }
+  ]
 }

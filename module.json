@@ -1,0 +1,208 @@
+{
+  "id": "beast-and-barbarians-content",
+  "title": "Beast And Barbarians Content",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "swade-core-rules",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "adventure-deck",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Jeronimo Rodriguez",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/jero-rodriguez/beast-and-barbarians-content",
+  "packs": [
+    {
+      "name": "bnb-bestiary",
+      "label": "bnb-bestiary",
+      "path": "packs/bnb-bestiary",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-ancestries",
+      "label": "bnb-ancestries",
+      "path": "packs/bnb-ancestries",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-armor",
+      "label": "bnb-armor",
+      "path": "packs/bnb-armor",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-edges",
+      "label": "bnb-edges",
+      "path": "packs/bnb-edges",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-equipment",
+      "label": "bnb-equipment",
+      "path": "packs/bnb-equipment",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-hindrances",
+      "label": "bnb-hindrances",
+      "path": "packs/bnb-hindrances",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-powers",
+      "label": "bnb-powers",
+      "path": "packs/bnb-powers",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-skills",
+      "label": "bnb-skills",
+      "path": "packs/bnb-skills",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-special-abilities",
+      "label": "bnb-special-abilities",
+      "path": "packs/bnb-special-abilities",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-weapons",
+      "label": "bnb-weapons",
+      "path": "packs/bnb-weapons",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-rules",
+      "label": "bnb-rules",
+      "path": "packs/bnb-rules",
+      "type": "JournalEntry",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-tables",
+      "label": "bnb-tables",
+      "path": "packs/bnb-tables",
+      "type": "RollTable",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bnb-vehicles",
+      "label": "bnb-vehicles",
+      "path": "packs/bnb-vehicles",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Beast and Barbarians Content",
+      "sorting": "a",
+      "color": "#7c6840",
+      "packs": [
+        "bnb-ancestries",
+        "bnb-armor",
+        "bnb-bestiary",
+        "bnb-edges",
+        "bnb-equipment",
+        "bnb-hindrances",
+        "bnb-powers",
+        "bnb-rules",
+        "bnb-skills",
+        "bnb-special-abilities",
+        "bnb-tables",
+        "bnb-vehicles",
+        "bnb-weapons"
+      ],
+      "folders": []
+    }
+  ]
+}

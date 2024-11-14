@@ -1,0 +1,7 @@
+2024/10/04-12:04:39.878 a3ac Recovering log #4
+2024/10/04-12:04:39.882 a3ac Delete type=0 #4
+2024/10/04-12:04:39.882 a3ac Delete type=3 #2
+2024/10/04-12:20:22.794 5a08 Level-0 table #9: started
+2024/10/04-12:20:22.803 5a08 Level-0 table #9: 599624 bytes OK
+2024/10/04-12:20:22.804 5a08 Delete type=0 #7
+2024/10/04-12:20:22.807 5a08 Manual compaction at level-0 from '!actors!0sviGX0BNFNbwtAf' @ 72057594037927935 : 1 .. '!actors.items.effects!zaY9Oa4CqkYWb7kF.M8PbJm7sAMlUpiG3.zk4W4mwYBCR70M1H' @ 0 : 0; will stop at (end)
